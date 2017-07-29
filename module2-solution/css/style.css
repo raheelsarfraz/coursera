@@ -1,0 +1,98 @@
+body{
+		
+	}
+
+	*{
+		box-sizing: border-box;
+	}
+	p{
+		margin: 15% 3% 3% 3%;
+	}
+	
+	.box{
+		position: relative;
+		background-color: grey;
+		border: 1px solid black;
+		width: 90%;
+		height: 100%;
+		font-size: 20px;
+		margin-left: 5px;
+		
+		}
+	.h2{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 50px;
+		border:1px solid black;
+		text-align: center;
+		width: 40%;
+		}
+
+		.color1{
+			background-color: #DEB887;
+		}
+		.color2{
+			background-color: #5F9EA0;
+		}
+		.color3{
+			background-color: #6495ED;
+		}
+	h1{
+		margin-top: 50px;
+		margin-bottom: 20px;
+		color: red;
+		margin-bottom: 80px;
+		text-align: center;
+	}
+
+	@media(min-width: 992px){
+		.p1, .p2, .p3{
+				float: left;
+				margin-right: 15px;
+		}
+		.p1{
+			margin-left: 1%;
+			width: 31%;
+		}
+		.p2{
+			
+			width: 31%;
+		}
+		.p3{
+			
+			width: 31%;
+		}
+	}
+	@media(min-width: 768px) and (max-width: 991px){
+		.p1, .p2, .p3{
+				float: left;
+		}
+		.p1{
+			margin-right: 2%;
+			width: 48%;
+			margin-bottom: 2%;
+		}
+		.p2{
+			
+			width: 48%;
+			margin-bottom: 2%;
+		}
+		.p3{
+			
+			width: 98.5%;
+		}
+	}
+	@media(max-width: 767px){
+		.p1, .p2, .p3{
+				margin-left: 1%;
+				margin-right: 1%;
+				float: left;
+				width: 98%;
+				margin-bottom: 2%;
+
+		}
+		
+	}
